@@ -6,5 +6,13 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'number_button';
+  title='BOTONES'
+  valor = 2;
+  sumar() {
+    this.valor +=1;
+  }
+  restar() {
+    this.valor -= 1;
+
+  };
 }
